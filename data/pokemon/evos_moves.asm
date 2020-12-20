@@ -32,7 +32,7 @@ EvosMovesPointerTable:
 	dw BlastoiseEvosMoves
 	dw PinsirEvosMoves
 	dw TangelaEvosMoves
-	dw MissingNo1FEvosMoves
+	dw TangrowthEvosMoves
 	dw MissingNo20EvosMoves
 	dw GrowlitheEvosMoves
 	dw OnixEvosMoves
@@ -545,10 +545,18 @@ TangelaEvosMoves:
 	db 48, GROWTH
 	db 0
 
-MissingNo1FEvosMoves:
+TangrowthEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 24, BIND
+	db 27, ABSORB
+	db 29, VINE_WHIP
+	db 32, POISONPOWDER
+	db 36, STUN_SPORE
+	db 39, SLEEP_POWDER
+	db 45, SLAM
+	db 48, GROWTH
 	db 0
 
 MissingNo20EvosMoves:

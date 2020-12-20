@@ -29,7 +29,7 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
+	dw TangrowthDexEntry
 	dw MissingNoDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
@@ -1250,6 +1250,13 @@ MewDexEntry:
 	db 1,4
 	dw 90
 	text_far _MewDexEntry
+	text_end
+
+TangrowthDexEntry:
+	db "VINE@"
+	db 6,7
+	dw 2835
+	text_far _TangrowthDexEntry
 	text_end
 
 MissingNoDexEntry:

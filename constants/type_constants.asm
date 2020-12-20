@@ -8,12 +8,11 @@ PHYSICAL EQU const_value
 	const POISON       ; $03
 	const GROUND       ; $04
 	const ROCK         ; $05
-	const BIRD         ; $06
+	const STEEL        ; $06
 	const BUG          ; $07
 	const GHOST        ; $08
-	const STEEL				 ; $19
 
-	const_next 19
+	const_next 20
 
 SPECIAL EQU const_value
 	const FIRE         ; $14

@@ -1506,3 +1506,13 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+
+_TangrowthDexEntry::
+	text "When viewed"
+	next "through a micro-"
+	next "scope, this"
+
+	page "#MON's short,"
+	next "fine, delicate"
+	next "hair can be seen"
+	dex

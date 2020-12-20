@@ -6,10 +6,9 @@ TypeNames:
 	dw .Poison
 	dw .Ground
 	dw .Rock
-	dw .Bird
+	dw .Steel
 	dw .Bug
 	dw .Ghost
-	dw .Steel
 
 REPT FIRE - GHOST - 1
 	dw .Normal
@@ -37,10 +36,9 @@ ENDR
 .Ice:      db "ICE@"
 .Ground:   db "GROUND@"
 .Rock:     db "ROCK@"
-.Bird:     db "BIRD@"
+.Steel:    db "STEEL@"
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
 .Dark 		 db "DARK@"
-.Steel 		 db "STEEL@"
 .Fairy 		 db "FAIRY@"
