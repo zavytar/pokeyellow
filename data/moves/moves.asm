@@ -12,7 +12,7 @@ ENDM
 
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 MoveEnd:
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,       100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        85, 15
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -26,8 +26,8 @@ MoveEnd:
 	move RAZOR_WIND,   CHARGE_EFFECT,               80, NORMAL,        75, 10
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        50, NORMAL,        95, 30
-	move GUST,         NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
+	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
+	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,        85, 20
 	move FLY,          FLY_EFFECT,                  70, FLYING,        95, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
@@ -54,7 +54,7 @@ MoveEnd:
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            25, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  14, BUG,           85, 20
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
-	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
+	move BITE,         FLINCH_SIDE_EFFECT1,         60, DARK,     	  100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,       100, 40
 	move ROAR,         SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,       100, 20
 	move SING,         SLEEP_EFFECT,                 0, NORMAL,        55, 15
@@ -137,7 +137,7 @@ MoveEnd:
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
-	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
+	move WATERFALL,    FLINCH_SIDE_EFFECT2,         80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              100, NORMAL,       100, 15
@@ -175,4 +175,19 @@ MoveEnd:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	;shadow Ball ;a5
+	;shadow PUNCH ;a6
+	;dragonbreath ;a7
+	;dragon claw ;a8
+	;disarming voice ;a9
+	;dazzling gleam ;aa
+	;draining KISS ;ab
+	;dark pulse ;ac
+	;crunch ;ad
+	;nasty plot ;ae
+	;flash CANNON ;af
+	;metal claw c0
+	;iron Defense c1
+	;bullet punch c2
+	;charm
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10

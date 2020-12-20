@@ -164,5 +164,20 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
+	;shadow Ball ;a5
+	;shadow PUNCH ;a6
+	;dragonbreath ;a7
+	;dragon claw ;a8
+	;disarming voice ;a9
+	;dazzling gleam ;aa
+	;draining KISS ;ab
+	;dark pulse ;ac
+	;crunch ;ad
+	;nasty plot ;ae
+	;flash CANNON ;af
+	;metal claw c0
+	;iron Defense c1
+	;bullet punch c2
+	;charm
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	db SFX_BATTLE_0B,          $00, $80

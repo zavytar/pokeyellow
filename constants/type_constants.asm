@@ -11,8 +11,9 @@ PHYSICAL EQU const_value
 	const BIRD         ; $06
 	const BUG          ; $07
 	const GHOST        ; $08
+	const STEEL				 ; $19
 
-	const_next 20
+	const_next 19
 
 SPECIAL EQU const_value
 	const FIRE         ; $14
@@ -22,3 +23,5 @@ SPECIAL EQU const_value
 	const PSYCHIC_TYPE ; $18
 	const ICE          ; $19
 	const DRAGON       ; $1A
+	const DARK				 ; $1B
+	const FAIRY				 ; $1C
