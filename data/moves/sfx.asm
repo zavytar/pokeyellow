@@ -164,20 +164,26 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
-	;shadow Ball ;a5
-	;shadow PUNCH ;a6
-	;dragonbreath ;a7
-	;dragon claw ;a8
-	;disarming voice ;a9
-	;dazzling gleam ;aa
-	;draining KISS ;ab
-	;dark pulse ;ac
-	;crunch ;ad
-	;nasty plot ;ae
-	;flash CANNON ;af
-	;metal claw c0
-	;iron Defense c1
-	;bullet punch c2
-	;charm
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; DISARMING_VOICE
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; DRAGON_CLAW
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; BULLET_PUNCH
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; SHADOW_PUNCH
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff ; METAL_CLAW
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; SHADOW_BALL ;aa
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; DRAGONBREATH ; ab
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; DAZZLING_GLEAM ;ac
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; DRAINING_KISS ;ad
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; DARK_PULSE ;ae
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; CRUNCH ;af
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; NASTY_PLOT ;b0
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; FLASH_CANNON ;b1
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; IRON_DEFENSE ;b2
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; CHARM ;b3
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; X_SCISSOR ;b4
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; MEGAHORN ;b5
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; STRUGGLE_BUG ;b6
+	db SFX_SUPER_EFFECTIVE,    $f0, $ff	; DRAIN_PUNCH ;b7
+
+
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	db SFX_BATTLE_0B,          $00, $80

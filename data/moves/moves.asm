@@ -175,19 +175,24 @@ MoveEnd:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
-	;shadow Ball ;a5
-	;shadow PUNCH ;a6
-	;dragonbreath ;a7
-	;dragon claw ;a8
-	;disarming voice ;a9
-	;dazzling gleam ;aa
-	;draining KISS ;ab
-	;dark pulse ;ac
-	;crunch ;ad
-	;nasty plot ;ae
-	;flash CANNON ;af
-	;metal claw c0
-	;iron Defense c1
-	;bullet punch c2
-	;charm
+	move DISARMING_VOICE, SWIFT_EFFECT,             60, FAIRY,        100, 20
+	move DRAGON_CLAW,	 NO_ADDITIONAL_EFFECT,			  80, DRAGON,				100, 15
+	move BULLET_PUNCH, NO_ADDITIONAL_EFFECT,        40, STEEL,        100, 30
+	move SHADOW_PUNCH, NO_ADDITIONAL_EFFECT,        60, GHOST,        100, 30
+	move METAL_CLAW,	 ATTACK_UP1_EFFECT, 		  	  40, STEEL,        100, 30
+	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    70, GHOST,        100, 10
+	move DRAGONBREATH, NO_ADDITIONAL_EFFECT,        70, DRAGON,       100, 10
+	move DAZZLING_GLEAM, NO_ADDITIONAL_EFFECT,      70, FAIRY,        100, 10
+	move DRAINING_KISS, DRAIN_HP_EFFECT,     			  70, FAIRY,        100, 10
+	move DARK_PULSE,	 FLINCH_SIDE_EFFECT2,         70, DARK,     	  100, 10
+	move CRUNCH, 			 NO_ADDITIONAL_EFFECT,        70, DARK,     	  100, 10
+	move NASTY_PLOT, 	 NO_ADDITIONAL_EFFECT,         0, DARK,      	  100, 15
+	move FLASH_CANNON, NO_ADDITIONAL_EFFECT,        80, STEEL,        100, 10
+	move IRON_DEFENSE, DEFENSE_UP2_EFFECT,     	     0, STEEL,        100, 15
+	move CHARM, 			 ATTACK_DOWN1_EFFECT,          0, FAIRY,     	  100, 15
+	move X_SCISSOR, 	 NO_ADDITIONAL_EFFECT,        80, BUG,  	      100, 15
+	move MEGAHORN, 		 NO_ADDITIONAL_EFFECT,       120, BUG,     		   85, 10
+	move STRUGGLE_BUG, SPECIAL_DOWN_SIDE_EFFECT,    50, BUG,  	      100, 20
+	move DRAIN_PUNCH,	 DRAIN_HP_EFFECT,							60,	FIGHTING,			100, 10
+
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10

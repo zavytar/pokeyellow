@@ -170,6 +170,25 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
+	const DISARMING_VOICE ;a5
+	const DRAGON_CLAW ;a6
+	const BULLET_PUNCH ;a7
+	const SHADOW_PUNCH ;a8
+	const METAL_CLAW ;a9
+  const SHADOW_BALL ;aa
+	const DRAGONBREATH ; ab
+	const DAZZLING_GLEAM ;ac
+	const DRAINING_KISS ;ad
+	const DARK_PULSE ;ae
+	const CRUNCH ;af
+	const NASTY_PLOT ;b0
+	const FLASH_CANNON ;b1
+	const IRON_DEFENSE ;b2
+	const CHARM ;b3
+	const X_SCISSOR ;b4
+	const MEGAHORN ;b5
+	const STRUGGLE_BUG ;b6
+	const DRAIN_PUNCH ;b7
 
 NUM_ATTACKS EQU const_value - 1
 

@@ -163,19 +163,24 @@ MoveNames::
 	db "SUPER FANG@"
 	db "SLASH@"
 	db "SUBSTITUTE@"
-	;shadow Ball ;a5
-	;shadow PUNCH ;a6
-	;dragonbreath ;a7
-	;dragon claw ;a8
-	;disarming voice ;a9
-	;dazzling gleam ;aa
-	;draining KISS ;ab
-	;dark pulse ;ac
-	;crunch ;ad
-	;nasty plot ;ae
-	;flash CANNON ;af
-	;metal claw c0
-	;iron Defense c1
-	;bullet punch c2
-	;charm
+	db "DIS. VOICE@"
+	db "DRAGONCLAW@"
+	db "BLT. PUNCH@"
+	db "SHDW PUNCH@"
+	db "METAL CLAW@"
+	db "SHADW BALL@"
+	db "DRGNBREATH@"
+	db "DAZZ.GLEAM@"
+	db "DRAIN KISS@"
+	db "DARK PULSE@"
+	db "CRUNCH@"
+	db "NASTY PLOT@"
+	db "FL. CANNON@"
+	db "IRON DEF.@"
+	db "CHARM@"
+	db "X-SCISSOR@"
+	db "MEGAHORN@"
+	db "STRUG. BUG@"
+	db "DRN. PUNCH@"
+
 	db "STRUGGLE@"

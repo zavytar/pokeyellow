@@ -163,21 +163,26 @@ AttackAnimationPointers:
 	dw SuperFangAnim
 	dw SlashAnim
 	dw SubstituteAnim
-	;shadow Ball ;a5
-	;shadow PUNCH ;a6
-	;dragonbreath ;a7
-	;dragon claw ;a8
-	;disarming voice ;a9
-	;dazzling gleam ;aa
-	;draining KISS ;ab
-	;dark pulse ;ac
-	;crunch ;ad
-	;nasty plot ;ae
-	;flash CANNON ;af
-	;metal claw c0
-	;iron Defense c1
-	;bullet punch c2
-	;charm 
+	dw DisarmingVoiceAnim
+	dw DragonClawAnim
+	dw BulletPunchAnim
+	dw ShadowPunchAnim
+	dw MetalClawAnim
+	dw ShadowBallAnim
+	dw DragonBreathAnim
+	dw DazzlingGleamAnim
+	dw DrainingKissAnim
+	dw DarkPulseAnim
+	dw CrunchAnim
+	dw NastyPlotAnim
+	dw FlashCannonAnim
+	dw IronDefenseAnim
+	dw CharmAnim
+	dw XScissorAnim
+	dw MegahornAnim
+	dw StruggleBugAnim
+	dw DrainPunchAnim
+
 	dw StruggleAnim
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -1281,4 +1286,91 @@ ThrowRockAnim:
 
 ThrowBaitAnim:
 	battle_anim BARRAGE, SUBANIM_54, 0, 3
+	db -1 ; end
+
+DisarmingVoiceAnim:
+	battle_anim SCREECH, SUBANIM_12, 1, 6
+	db -1 ; end
+
+DragonClawAnim:
+	battle_anim SCRATCH, SUBANIM_0F, 0, 6
+	db -1 ; end
+
+BulletPunchAnim:
+	battle_anim SHARPEN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim COMET_PUNCH, SUBANIM_02, 0, 4
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+ShadowPunchAnim:
+	battle_anim COMET_PUNCH, SE_DARK_SCREEN_PALETTE
+	battle_anim NO_MOVE, SUBANIM_3E, 1, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+MetalClawAnim:
+	battle_anim SHARPEN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim SCRATCH, SUBANIM_0F, 0, 6
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+ShadowBallAnim:
+DragonBreathAnim:
+DazzlingGleamAnim:
+DrainingKissAnim:
+	battle_anim LOVELY_KISS, SUBANIM_12, 0, 6
+	battle_anim MEGA_DRAIN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+DarkPulseAnim:
+		battle_anim HYPER_BEAM, SE_DARK_SCREEN_PALETTE
+		battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+		db -1 ; end
+
+CrunchAnim:
+	battle_anim BITE, SUBANIM_02, 0, 8
+	battle_anim BITE, SUBANIM_02, 0, 8
+	db -1 ; end
+
+NastyPlotAnim:
+FlashCannonAnim:
+	battle_anim HYPER_BEAM, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+IronDefenseAnim:
+	battle_anim HARDEN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SUBANIM_43, 1, 6
+	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	db -1 ; end
+
+CharmAnim:
+	battle_anim AMNESIA, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim AMNESIA, SE_RESET_MON_POSITION
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim AMNESIA, SE_MOVE_MON_HORIZONTALLY
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim AMNESIA, SE_RESET_MON_POSITION
+	db -1 ; end
+
+XScissorAnim:
+	battle_anim SLASH, SUBANIM_0F, 0, 6
+	db -1 ; end
+
+MegahornAnim:
+	battle_anim HORN_DRILL, SUBANIM_05, 1, 2
+	battle_anim NO_MOVE, SUBANIM_05, 1, 2
+	db -1 ; end
+
+StruggleBugAnim:
+	battle_anim POUND, SUBANIM_01, 0, 8
+	db -1 ; end
+
+DrainPunchAnim:
+	battle_anim MEGA_PUNCH, SUBANIM_0F, 0, 6
+	battle_anim MEGA_DRAIN, SE_LIGHT_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end

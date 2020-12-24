@@ -14,6 +14,6 @@ RedsHouse1FMomText:
 RedsHouse1FTVText:
 	text_asm
 	callfar Func_f1bc4
-	lb bc, MAGNEMITE, 25
+	lb bc, CLEFAIRY, 25
 	call GivePokemon
 	jp TextScriptEnd
